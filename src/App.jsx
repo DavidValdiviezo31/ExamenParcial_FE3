@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import './App.css'
 import { validateHexColor, validateName } from './utils/validations'
 import Form from './components/form/Form'
 import Card from './components/card/Card'
+import './App.css'
 
 const INITIAL_DATA = {
   name: '',
